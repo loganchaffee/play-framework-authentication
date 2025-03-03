@@ -14,48 +14,44 @@ import services.DatabaseService
 import services.UserService
 import services.JWTService
 import dto.AuthOutput
+import scala.concurrent.ExecutionContext
+import scala.concurrent.Future
 
 class AuthController @Inject() (
     val controllerComponents: ControllerComponents,
     val userService: UserService,
     val JWTService: JWTService
-) extends BaseController {
+)(implicit ec: ExecutionContext)
+    extends BaseController {
 
-  def signup() = Action(parse.json) { implicit request =>
-    // Get username and password from request body
+  def signup() = Action.async(parse.json) { implicit request =>
     val input = request.body.as[AuthInput]
 
-    // Check if username is taken in DB
-    val maybeExistingUser = userService.getUserByUsername(input.username)
-
-    maybeExistingUser match {
-      case Some(existingUser) => Ok("username taken")
+    userService.getUserByUsername(input.username).flatMap {
+      case Some(existingUser) => {
+        Future.successful(
+          Conflict(Json.obj("error" -> "Username is already in use"))
+        )
+      }
       case None => {
         val hashedPassword =
           BCrypt.withDefaults.hashToString(12, input.password.toCharArray);
-
-        userService.createUser(input.username, hashedPassword) match {
-          case None => InternalServerError("An unexpected error occurred.")
+        userService.createUser(input.username, hashedPassword).map {
           case Some(newUserId) => {
             val token = JWTService.createToken(newUserId)
-
             Ok(Json.toJson(AuthOutput(token)))
           }
+          case None => InternalServerError("An unexpected error occurred.")
         }
       }
     }
   }
 
-  def signin() = Action(parse.json) { implicit request =>
-    // Get username and password from request body
+  def signin() = Action.async(parse.json) { implicit request =>
     val input = request.body.as[AuthInput]
 
-    // Check if username is taken in DB
-    val maybeUser = userService.getUserByUsername(input.username)
-
-    maybeUser match {
+    userService.getUserByUsername(input.username).map {
       case Some(existingUser) => {
-        // check password
         val isValidPwd = BCrypt.verifyer
           .verify(
             input.password.toCharArray,
@@ -72,6 +68,5 @@ class AuthController @Inject() (
       }
       case None => Unauthorized("Invalid credentials")
     }
-
   }
 }

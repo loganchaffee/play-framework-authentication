@@ -7380,3 +7380,226 @@ WARNING: Unmatched cancel notification for request id 2
 2025.03.03 14:13:57 INFO  Shut down connection with build server.[0m
 2025.03.03 14:13:57 INFO  Shut down connection with build server.[0m
 2025.03.03 14:13:57 INFO  Shut down connection with build server.[0m
+2025.03.03 14:41:12 INFO  Started: Metals version 1.4.2 in folders '/Users/loganchaffee/Documents/github/play-framework-authentication' for client Neovim 0.10.2.[0m
+2025.03.03 14:41:12 INFO  no build target found for /Users/loganchaffee/Documents/github/play-framework-authentication/app/controllers/UserController.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.03 14:41:12 INFO  no build target found for /Users/loganchaffee/Documents/github/play-framework-authentication/app/controllers/UserController.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.03.03 14:41:12 INFO  Attempting to connect to the build server...[0m
+2025.03.03 14:41:12 INFO  Found a Bloop server running[0m
+2025.03.03 14:41:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/loganchaffee/Documents/github/play-framework-authentication/.metals/bsp.trace.json or /Users/loganchaffee/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.03.03 14:41:12 INFO  Attempting to connect to the build server...[0m
+2025.03.03 14:41:12 INFO  Found a Bloop server running[0m
+2025.03.03 14:41:12 INFO  Attempting to connect to the build server...[0m
+2025.03.03 14:41:12 INFO  Found a Bloop server running[0m
+2025.03.03 14:41:12 INFO  Attempting to connect to the build server...[0m
+2025.03.03 14:41:12 INFO  Found a Bloop server running[0m
+2025.03.03 14:41:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/loganchaffee/Documents/github/play-framework-authentication/project/project/project/.metals/bsp.trace.json or /Users/loganchaffee/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.03.03 14:41:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/loganchaffee/Documents/github/play-framework-authentication/project/project/.metals/bsp.trace.json or /Users/loganchaffee/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.03.03 14:41:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/loganchaffee/Documents/github/play-framework-authentication/project/.metals/bsp.trace.json or /Users/loganchaffee/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.03.03 14:41:13 INFO  time: Connected to build server in 0.37s[0m
+2025.03.03 14:41:13 INFO  Connected to Build server: Bloop v2.0.6[0m
+2025.03.03 14:41:12 INFO  running doctor check[0m
+2025.03.03 14:41:12 INFO  java targets: root, root-test, play-framework-authentication-build, play-framework-authentication-build-build, play-framework-authentication-build-build-build[0m
+Mar 03, 2025 2:41:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.03.03 14:41:15 INFO  time: indexed workspace in 2.79s[0m
+2025.03.03 14:42:49 INFO  compiling root (1 scala source)[0m
+2025.03.03 14:42:49 INFO  time: compiled root in 0.98s[0m
+Mar 03, 2025 2:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+2025.03.03 14:43:44 INFO  compiling root (1 scala source)[0m
+2025.03.03 14:43:44 INFO  time: compiled root in 0.14s[0m
+2025.03.03 14:43:51 INFO  compiling root (1 scala source)[0m
+2025.03.03 14:43:51 INFO  time: compiled root in 0.38s[0m
+2025.03.03 14:43:51 INFO  compiling root (1 scala source)[0m
+2025.03.03 14:43:51 INFO  time: compiled root in 64ms[0m
+2025.03.03 14:44:00 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:44:00 INFO  time: compiled root in 0.11s[0m
+2025.03.03 14:44:38 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:44:38 INFO  time: compiled root in 0.12s[0m
+2025.03.03 14:44:49 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:44:49 INFO  time: compiled root in 0.12s[0m
+2025.03.03 14:52:29 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:52:29 INFO  time: compiled root in 0.36s[0m
+Mar 03, 2025 2:52:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 174
+2025.03.03 14:53:10 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:53:10 INFO  time: compiled root in 0.18s[0m
+2025.03.03 14:53:16 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:53:16 INFO  time: compiled root in 0.14s[0m
+2025.03.03 14:53:27 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:53:27 INFO  time: compiled root in 0.13s[0m
+2025.03.03 14:53:47 INFO  compiling root (3 scala sources)[0m
+2025.03.03 14:53:47 INFO  time: compiled root in 0.12s[0m
+2025.03.03 14:54:01 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:54:01 INFO  time: compiled root in 0.12s[0m
+Mar 03, 2025 2:54:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 183,
+      "uri": "file:///Users/loganchaffee/Documents/github/play-framework-authentication/app/controllers/AuthController.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "package controllers\n\nimport javax.inject._\nimport play.api._\nimport play.api.mvc._\nimport play.api.libs.json.Json\nimport at.favre.lib.crypto.bcrypt.BCrypt\nimport java.time.Clock\nimport pdi.jwt._\n\nimport dto.AuthInput\nimport models.User\nimport services.DatabaseService\nimport services.UserService\nimport services.JWTService\nimport dto.AuthOutput\n\nclass AuthController @Inject() (\n    val controllerComponents: ControllerComponents,\n    val userService: UserService,\n    val JWTService: JWTService\n)(implicit ec: ExecutionContext)\n    extends BaseController {\n\n  def signup() \u003d Action(parse.json) { implicit request \u003d\u003e\n    // Get username and password from request body\n    val input \u003d request.body.as[AuthInput]\n\n    // Check if username is taken in DB\n    val maybeExistingUser \u003d userService.getUserByUsername(input.username)\n\n    maybeExistingUser match {\n      case Some(existingUser) \u003d\u003e\n        Conflict(Json.obj(\"error\" -\u003e \"Username is already in use\"))\n      case None \u003d\u003e {\n        val hashedPassword \u003d\n          BCrypt.withDefaults.hashToString(12, input.password.toCharArray);\n\n        userService\n          .createUser(input.username, hashedPassword)\n          .map {\n            case Some(newUserId) \u003d\u003e {\n              val token \u003d JWTService.createToken(newUserId)\n\n              Left(Ok(Json.toJson(AuthOutput(token))))\n            }\n            case None \u003d\u003e\n              Right(InternalServerError(\"An unexpected error occurred.\"))\n          }\n      }\n    }\n  }\n\n  def signin() \u003d Action(parse.json) { implicit request \u003d\u003e\n    // Get username and password from request body\n    val input \u003d request.body.as[AuthInput]\n\n    // Check if username is taken in DB\n    val maybeUser \u003d userService.getUserByUsername(input.username)\n\n    maybeUser match {\n      case Some(existingUser) \u003d\u003e {\n        // check password\n        val isValidPwd \u003d BCrypt.verifyer\n          .verify(\n            input.password.toCharArray,\n            existingUser.password.toCharArray\n          )\n          .verified\n\n        if (isValidPwd) {\n          val token \u003d JWTService.createToken(existingUser.id)\n          Ok(Json.toJson(AuthOutput(token)))\n        } else {\n          Unauthorized(\"Invalid credentials\")\n        }\n      }\n      case None \u003d\u003e Unauthorized(\"Invalid credentials\")\n    }\n\n  }\n}\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.didChange(org.eclipse.lsp4j.DidChangeTextDocumentParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.nio.file.NoSuchFileException: /Users/loganchaffee/Documents/github/play-framework-authentication/app/controllers/AuthController.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixPath.toRealPath(UnixPath.java:885)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.dealias(ScalametaCommonEnrichments.scala:342)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:132)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:771)
+	at scala.meta.internal.parsing.Trees.tokenized(Trees.scala:163)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:506)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:316)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2(Diagnostics.scala:276)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$2$adapted(Diagnostics.scala:275)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:935)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:275)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:240)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:153)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:866)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:227)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:417)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+2025.03.03 14:54:06 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:54:06 INFO  time: compiled root in 0.12s[0m
+2025.03.03 14:54:08 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:54:08 INFO  time: compiled root in 96ms[0m
+2025.03.03 14:54:31 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:54:31 INFO  time: compiled root in 0.11s[0m
+Mar 03, 2025 2:54:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 258
+2025.03.03 14:54:45 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:54:45 INFO  time: compiled root in 0.11s[0m
+2025.03.03 14:54:55 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:54:55 INFO  time: compiled root in 0.11s[0m
+2025.03.03 14:55:00 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:55:00 INFO  time: compiled root in 0.11s[0m
+2025.03.03 14:55:07 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:55:07 INFO  time: compiled root in 0.11s[0m
+2025.03.03 14:55:43 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:55:43 INFO  time: compiled root in 0.11s[0m
+2025.03.03 14:55:47 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:55:47 INFO  time: compiled root in 0.11s[0m
+Mar 03, 2025 2:56:20 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Range [874, 874 + -1) out of bounds for length 2312
+2025.03.03 14:56:41 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:56:41 INFO  time: compiled root in 0.11s[0m
+2025.03.03 14:57:20 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:57:20 INFO  time: compiled root in 0.11s[0m
+2025.03.03 14:57:29 INFO  compiling root (2 scala sources)[0m
+2025.03.03 14:57:29 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:03:55 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:03:55 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:04:01 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:04:01 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:04:24 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:04:24 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:04:24 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:04:25 INFO  time: compiled root in 86ms[0m
+2025.03.03 15:05:03 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:05:03 INFO  time: compiled root in 0.1s[0m
+2025.03.03 15:05:11 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:05:11 INFO  time: compiled root in 0.13s[0m
+2025.03.03 15:05:28 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:05:28 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:05:40 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:05:40 INFO  time: compiled root in 0.1s[0m
+2025.03.03 15:05:45 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:05:45 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:05:48 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:05:48 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:05:52 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:05:52 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:05:52 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:05:53 INFO  time: compiled root in 75ms[0m
+2025.03.03 15:06:04 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:06:04 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:06:39 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:06:39 INFO  time: compiled root in 0.12s[0m
+2025.03.03 15:06:45 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:06:45 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:08:11 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:08:11 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:08:38 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:08:38 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:09:14 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:09:14 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:09:15 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:09:15 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:09:20 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:09:20 INFO  time: compiled root in 91ms[0m
+2025.03.03 15:09:58 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:09:58 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:10:03 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:10:03 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:10:06 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:10:06 INFO  time: compiled root in 93ms[0m
+2025.03.03 15:10:08 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:10:08 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:11:22 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:11:22 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:12:12 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:12:12 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:12:33 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:12:33 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:12:39 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:12:39 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:13:04 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:13:04 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:13:05 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:13:05 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:13:17 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:13:17 INFO  time: compiled root in 0.11s[0m
+2025.03.03 15:13:32 INFO  compiling root (2 scala sources)[0m
+2025.03.03 15:13:32 INFO  time: compiled root in 0.7s[0m
+2025.03.03 15:13:50 INFO  compiling root (1 scala source)[0m
+2025.03.03 15:13:50 INFO  time: compiled root in 0.42s[0m
+2025.03.03 15:13:57 INFO  compiling root (1 scala source)[0m
+2025.03.03 15:13:57 INFO  time: compiled root in 0.4s[0m
+2025.03.03 15:14:01 INFO  compiling root (1 scala source)[0m
+2025.03.03 15:14:01 INFO  time: compiled root in 0.39s[0m
+2025.03.03 15:14:06 INFO  compiling root (1 scala source)[0m
+2025.03.03 15:14:06 INFO  time: compiled root in 0.38s[0m
+2025.03.03 15:14:14 INFO  compiling root (1 scala source)[0m
+2025.03.03 15:14:14 INFO  time: compiled root in 0.41s[0m
+2025.03.03 15:14:17 INFO  compiling root (1 scala source)[0m
+2025.03.03 15:14:17 INFO  time: compiled root in 0.38s[0m
+2025.03.03 15:30:46 INFO  compiling root (1 scala source)[0m
+2025.03.03 15:30:46 INFO  time: compiled root in 0.96s[0m
+2025.03.03 15:31:00 INFO  Shutting down server[0m
+2025.03.03 15:31:00 INFO  shutting down Metals[0m
+2025.03.03 15:31:00 INFO  Shut down connection with build server.[0m
+2025.03.03 15:31:00 INFO  Shut down connection with build server.[0m
+2025.03.03 15:31:00 INFO  Shut down connection with build server.[0m
+2025.03.03 15:31:00 INFO  Shut down connection with build server.[0m

@@ -31,7 +31,7 @@ class UserService @Inject() (
     }
   }
 
-  def getUserByUsername(username: String) = {
+  def getUserByUsername(username: String): Future[Option[User]] = Future {
     db.withConnection { conn =>
       val stmt = conn.prepareStatement("SELECT * FROM user WHERE username = ?")
       stmt.setString(1, username)
@@ -71,7 +71,10 @@ class UserService @Inject() (
     }
   }
 
-  def createUser(username: String, hashedPassword: String): Option[Int] = {
+  def createUser(
+      username: String,
+      hashedPassword: String
+  ): Future[Option[Int]] = Future {
     db.withConnection { conn =>
       val stmt = conn.prepareStatement(
         "insert into user (username, password) values (?, ?);",

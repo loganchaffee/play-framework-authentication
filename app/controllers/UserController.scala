@@ -22,7 +22,7 @@ class UserController @Inject() (
 )(implicit ec: ExecutionContext)
     extends AbstractController(cc) {
 
-  def getUsers() = Action.async { request =>
+  def getUsers() = userAction.async { request =>
     userService.getUsers
       .map(users => Ok(Json.toJson(users)))
       .recover { case ex: Exception =>
